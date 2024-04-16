@@ -1,0 +1,167 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+
+html{
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+form,h1{
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+form{
+  margin: 20px;
+  padding: 10px;
+  background-color: rgba(42, 18, 55, 0.8);
+  border: 3px solid #fff;
+  border-radius: 20px;
+}
+
+h1{
+  margin: 20px;
+  padding: 15px;
+  background-color: rgba(42, 18, 55, 0.8);
+  border: 3px solid #fff ;
+  border-radius: 20px;
+  color: whitesmoke;
+  
+}
+
+/* Centramos el contenido */
+body{
+  display: grid;
+  place-items: center;
+  justify-content: center;
+  background-image: url('img/fondo.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  margin: 50px;
+}
+
+/* Para que el tablero no se deforme en pantallas o ventanas pequeñas */
+main div{
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+p{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+input, select{
+  padding: 10px;
+  margin: 5px;
+  border-radius: 10px;
+  font-size: large;
+  font-weight: bold;
+  background-color: rgba(255, 255, 255, 0.675);
+}
+
+img{
+  width: 50px;
+  height: 50px;
+  padding: 5px;
+  margin: 20px;
+  background-color: rgb(89, 90, 82);
+  border: 3px solid rgb(233, 233, 233);
+  border-radius: 20px;
+}
+
+.swal2-image{
+  background-color: rgba(168, 168, 168, 0.464);
+}
+
+#flag,#time{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 40px;
+  width: 40px;
+  margin: 20px;
+  padding: 10px;
+  background-color: rgb(89, 90, 82);
+  border: 3px solid rgb(233, 233, 233);
+  border-radius: 20px;
+  color: whitesmoke;
+}
+
+#interfaz{
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: column;
+  background-color: rgba(42, 18, 55, 0.8);
+  border-radius: 20px;
+  border: 3px solid #fff;
+  margin: 20px;
+}
+
+
+button{
+  width: 50px;
+  height: 50px;
+  padding: 5px;
+  background-color: slategrey;
+  border: 4px rgb(49, 42, 95) solid;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: larger;
+  border-radius: 10px;
+  margin: 1px;
+}
+
+
+
+/* -------  CLASES PARA EVENTOS  ------- */
+
+.bomba{
+  width: 50px;
+  height: 50px;
+  padding: 5px ;
+  background-image: url('img/bomba.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: rgb(255, 171, 68, 0.8);
+  border: 3px solid rgb(145, 80, 0);
+  cursor: pointer;
+}
+
+.bandera{
+  width: 50px;
+  height: 50px;
+  padding: 5px ;
+  background-image: url('img/flag.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: rgb(32, 95, 79,0.8);
+  border: 3px rgb(18, 52, 43) solid;
+  cursor: pointer;
+}
+
+.numero{
+  background-color: rgb(74, 183, 138, 0.90);
+  border: 1px solid rgb(25, 84, 50);
+  color: whitesmoke;
+  font-size: x-large;
+  font-weight: bold;
+}
+
+.descubierto{
+  width: 50px;
+  height: 50px;
+  padding: 5px ;
+  background-color: rgb(74, 183, 138,0.90);
+  border: 1px solid rgb(25, 84, 50);
+}
+
+
